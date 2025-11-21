@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Produit test",
+    "price": 29.99,
+    "image": "https://picsum.photos/200/300?random=1"
+  },
+
+  {
+    "id": 2,
+    "name": "Produit test2",
+    "price": 29.99,
+    "image": "https://picsum.photos/200/300?random=2"
+  },
+
+    {
+        "id": 3,
+        "name": "Produit test3",
+        "price": 29.99,
+        "image": "https://picsum.photos/200/300?random=3"
+    },
+    {
+        "id": 4,
+        "name": "Produit test4",
+        "price": 29.99,
+        "image": "https://picsum.photos/200/300?random=14"
+    }
+]

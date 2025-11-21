@@ -25,8 +25,8 @@ GoRouter createRouter() {
       return null;
     },
     routes: [
-      GoRoute(path: '/login', builder: (_, __) => LoginPage()),
-      GoRoute(path: '/register', builder: (_, __) => RegisterPage()),
+      GoRoute(path: '/login', builder: (_, __) => const LoginPage()),
+      GoRoute(path: '/register', builder: (_, __) => const RegisterPage()),
       GoRoute(path: '/catalog', builder: (_, __) => CatalogPage()),
       GoRoute(
         path: '/product/:id',
@@ -34,8 +34,8 @@ GoRouter createRouter() {
           productId: state.pathParameters['id']!,
         ),
       ),
-      GoRoute(path: '/cart', builder: (_, __) => CartPage()),
-      GoRoute(path: '/checkout', builder: (_, __) => CheckoutPage()),
+      GoRoute(path: '/cart', builder: (_, __) => const CartPage()),
+      GoRoute(path: '/checkout', builder: (_, __) => const CheckoutPage()),
       GoRoute(path: '/orders', builder: (_, __) => OrdersPage()),
     ],
   );

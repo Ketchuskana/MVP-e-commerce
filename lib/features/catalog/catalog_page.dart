@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'catalog_viewmodel.dart';
 import '../../data/datasources/product_remote_ds.dart';
+import 'package:go_router/go_router.dart';
 
 class CatalogPage extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _CatalogPageState extends State<CatalogPage> {
                     width: 60, height: 60, fit: BoxFit.cover),
                 title: Text(p.title),
                 subtitle: Text('${p.price} €'),
-                onTap: () => Navigator.pushNamed(context, '/product/${p.id}'),
+                onTap: () => context.push('/product/${p.id}'),
               );
             },
           ),
