@@ -13,7 +13,7 @@ GoRouter createRouter() {
   final auth = AuthService();
 
   return GoRouter(
-    initialLocation: '/catalog',
+    initialLocation: '/login',
     refreshListenable: auth,
     redirect: (context, state) {
       final loggedIn = auth.isLoggedIn;
