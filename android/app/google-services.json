@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "837389936430",
+    "project_id": "mvp-e-commerce",
+    "storage_bucket": "mvp-e-commerce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837389936430:android:702f2f6893c4fb2e613cbf",
+        "android_client_info": {
+          "package_name": "com.example.exo_cours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqYBfHXewGfQmBWMMGWP8Mpsr2EFdOMHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
