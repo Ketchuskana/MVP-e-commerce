@@ -47,16 +47,13 @@ class CartPage extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: ElevatedButton(
               onPressed: () {
-                // Simulation de confirmation de commande
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Commande confirmée !')),
                 );
 
-                // On vide le panier
                 itemsBox.clear();
 
-                // Retour à la page catalogue
-                context.go('/');
+                context.go('/catalog');
               },
               child: const Text('Confirmer la commande'),
             ),
